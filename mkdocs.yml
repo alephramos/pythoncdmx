@@ -1,0 +1,16 @@
+site_name: Python CDMX
+theme: material
+plugins:
+  - search
+  - macros
+  - mkdocs-video
+
+mkdocs_plugin: [material/search, material/social, material/tags] 
+
+markdown_extensions:
+  - attr_list
+plugins:
+  - mkdocs-video:
+      css_style:
+        width: "100%"
+        height: "22.172vw"
